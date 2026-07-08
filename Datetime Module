@@ -1,0 +1,10 @@
+import datetime
+
+today = datetime.date.today()
+
+print(today)
+Output
+2026-07-08
+
+(Output depends on the current date.)
+
