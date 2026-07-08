@@ -1,0 +1,7 @@
+def display():
+    print("Hello Python")
+
+if __name__ == "__main__":
+    display()
+Output
+Hello Python
