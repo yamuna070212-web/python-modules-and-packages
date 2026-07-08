@@ -1,0 +1,15 @@
+Folder Structure
+
+Employee/
+    __init__.py
+    salary.py
+main.py
+salary.py
+def bonus(salary):
+    return salary * 0.10
+main.py
+from Employee.salary import bonus
+
+print(bonus(50000))
+Output
+5000.0
