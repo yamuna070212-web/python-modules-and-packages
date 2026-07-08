@@ -1,0 +1,16 @@
+calculator.py
+def add(a,b):
+    return a+b
+
+def sub(a,b):
+    return a-b
+main.py
+import calculator
+
+print(calculator.add(10,20))
+print(calculator.sub(30,10))
+Output
+30
+20
+
+These programs cover the most common Modules and Packages concepts asked in Python labs, VTU practicals, and interviews.
