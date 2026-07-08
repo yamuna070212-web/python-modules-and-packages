@@ -1,0 +1,9 @@
+calculator.py
+def cube(n):
+    return n**3
+main.py
+import calculator as c
+
+print(c.cube(4))
+Output
+64
