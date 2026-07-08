@@ -1,0 +1,5 @@
+import calendar
+
+print(calendar.isleap(2028))
+Output
+True
