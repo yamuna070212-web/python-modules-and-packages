@@ -1,0 +1,7 @@
+from datetime import datetime
+
+now = datetime.now()
+
+print(now.strftime("%H:%M:%S"))
+Output
+15:30:45
