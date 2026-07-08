@@ -1,0 +1,7 @@
+import platform
+
+print(platform.system())
+Output
+Windows
+
+(Depends on your operating system.)
