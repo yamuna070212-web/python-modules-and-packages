@@ -1,0 +1,21 @@
+Folder Structure
+
+MyPackage/
+    __init__.py
+    arithmetic.py
+    geometry.py
+arithmetic.py
+def add(a,b):
+    return a+b
+geometry.py
+def area(l,b):
+    return l*b
+main.py
+from MyPackage.arithmetic import add
+from MyPackage.geometry import area
+
+print(add(5,7))
+print(area(10,5))
+Output
+12
+50
