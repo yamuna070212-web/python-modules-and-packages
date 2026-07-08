@@ -1,0 +1,7 @@
+import calendar
+
+print(calendar.month(2026,7))
+Output
+     July 2026
+Mo Tu We Th Fr Sa Su
+...
