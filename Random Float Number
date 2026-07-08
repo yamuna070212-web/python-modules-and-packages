@@ -1,0 +1,7 @@
+import random
+
+print(random.uniform(1, 10))
+Output
+5.73
+
+(Output varies.)
