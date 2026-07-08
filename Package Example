@@ -1,0 +1,15 @@
+Folder Structure
+
+MyPackage/
+    __init__.py
+    calc.py
+main.py
+calc.py
+def add(a,b):
+    return a+b
+main.py
+from MyPackage.calc import add
+
+print(add(15,25))
+Output
+40
