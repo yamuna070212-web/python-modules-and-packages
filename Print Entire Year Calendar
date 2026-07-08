@@ -1,0 +1,5 @@
+import calendar
+
+print(calendar.calendar(2026))
+Output
+Complete calendar of 2026
