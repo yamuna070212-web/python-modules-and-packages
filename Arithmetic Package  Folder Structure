@@ -1,0 +1,19 @@
+Arithmetic/
+    __init__.py
+    add.py
+    subtract.py
+add.py
+def add(a, b):
+    return a + b
+subtract.py
+def subtract(a, b):
+    return a - b
+main.py
+from Arithmetic.add import add
+from Arithmetic.subtract import subtract
+
+print(add(10, 20))
+print(subtract(20, 5))
+Output
+30
+15
