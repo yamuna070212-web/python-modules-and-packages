@@ -1,0 +1,9 @@
+calculator.py
+def multiply(a,b):
+    return a*b
+main.py
+from calculator import multiply
+
+print(multiply(5,6))
+Output
+30
