@@ -1,0 +1,9 @@
+calculator.py
+def square(n):
+    return n*n
+main.py
+from calculator import *
+
+print(square(9))
+Output
+81
