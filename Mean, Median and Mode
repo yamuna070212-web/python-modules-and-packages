@@ -1,0 +1,11 @@
+import statistics
+
+data = [2,4,6,6,8]
+
+print(statistics.mean(data))
+print(statistics.median(data))
+print(statistics.mode(data))
+Output
+5.2
+6
+6
