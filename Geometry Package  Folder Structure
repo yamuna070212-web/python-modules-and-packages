@@ -1,0 +1,16 @@
+Geometry/
+    __init__.py
+    rectangle.py
+    circle.py
+rectangle.py
+def area(l, b):
+    return l * b
+circle.py
+def area(r):
+    return 3.14 * r * r
+main.py
+from Geometry.rectangle import area
+
+print(area(10, 5))
+Output
+50
