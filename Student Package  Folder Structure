@@ -1,0 +1,11 @@
+Student/
+    __init__.py
+    details.py
+main.py
+details.py
+def display():
+    print("Student Package")
+main.py
+from Student.details import display
+
+display()
