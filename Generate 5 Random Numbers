@@ -1,0 +1,10 @@
+import random
+
+for i in range(5):
+    print(random.randint(1, 100))
+Sample Output
+12
+87
+45
+91
+33
