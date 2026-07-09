@@ -1,0 +1,9 @@
+palindrome.py
+def check(text):
+    return text == text[::-1]
+main.py
+import palindrome
+
+print(palindrome.check("madam"))
+Output
+True
