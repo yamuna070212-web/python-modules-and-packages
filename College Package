@@ -1,0 +1,9 @@
+college/student.py
+def info():
+    print("Student Information")
+main.py
+from college.student import info
+
+info()
+Output
+Student Information
