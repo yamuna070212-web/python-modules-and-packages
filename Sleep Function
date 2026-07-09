@@ -1,0 +1,11 @@
+import time
+
+print("Start")
+
+time.sleep(2)
+
+print("End")
+Output
+Start
+(wait 2 seconds)
+End
