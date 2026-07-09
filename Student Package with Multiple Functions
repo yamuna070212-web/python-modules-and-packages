@@ -1,0 +1,15 @@
+details.py
+def name():
+    print("Ram")
+
+def age():
+    print(20)
+
+main.py
+from Student.details import *
+
+name()
+age()
+Output
+Ram
+20
