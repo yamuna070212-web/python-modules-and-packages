@@ -1,0 +1,9 @@
+calculator.py
+def add(a, b):
+    return a + b
+main.py
+from calculator import add as addition
+
+print(addition(15, 25))
+Output
+40
