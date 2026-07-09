@@ -1,0 +1,5 @@
+import math
+
+print(math.log10(1000))
+Output
+3.0
