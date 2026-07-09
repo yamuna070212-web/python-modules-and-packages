@@ -1,0 +1,9 @@
+minimum.py
+def minimum(a, b):
+    return min(a, b)
+main.py
+import minimum
+
+print(minimum.minimum(20, 35))
+Output
+20
