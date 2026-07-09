@@ -1,0 +1,7 @@
+import math
+
+angle = math.radians(60)
+
+print(math.cos(angle))
+Output
+0.5
