@@ -1,0 +1,12 @@
+geometry/circle.py
+def area(r):
+    return 3.14 * r * r
+geometry/square.py
+def area(a):
+    return a * a
+main.py
+from geometry.circle import area
+
+print(area(7))
+Output
+153.86
