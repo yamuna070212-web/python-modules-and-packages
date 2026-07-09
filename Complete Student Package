@@ -1,0 +1,27 @@
+Folder Structure
+
+Student/
+    __init__.py
+    marks.py
+    result.py
+marks.py
+def marks():
+    return 92
+result.py
+def result(mark):
+
+    if mark >= 35:
+        return "Pass"
+    else:
+        return "Fail"
+main.py
+from Student.marks import marks
+from Student.result import result
+
+m = marks()
+
+print(m)
+print(result(m))
+Output
+92
+Pass
