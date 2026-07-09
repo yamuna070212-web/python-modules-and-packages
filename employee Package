@@ -1,0 +1,9 @@
+employee/details.py
+def display():
+    print("Employee Details")
+main.py
+from employee.details import display
+
+display()
+Output
+Employee Details
