@@ -1,0 +1,7 @@
+import random
+
+otp = random.randint(100000, 999999)
+
+print("OTP:", otp)
+Sample Output
+OTP: 483215
