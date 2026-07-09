@@ -1,0 +1,22 @@
+Folder Structure
+
+Maths/
+    __init__.py
+    add.py
+    multiply.py
+add.py
+def add(a, b):
+    return a + b
+
+multiply.py
+def multiply(a, b):
+    return a * b
+main.py
+from Maths.add import add
+from Maths.multiply import multiply
+
+print(add(5, 7))
+print(multiply(5, 7))
+Output
+12
+35
