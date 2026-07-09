@@ -1,0 +1,15 @@
+Folder Structure
+
+Vehicle/
+    __init__.py
+    car.py
+car.py
+def start():
+    print("Car Started")
+
+main.py
+from Vehicle.car import start
+
+start()
+Output
+Car Started
