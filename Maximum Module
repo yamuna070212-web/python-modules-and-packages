@@ -1,0 +1,9 @@
+maximum.py
+def maximum(a, b):
+    return max(a, b)
+main.py
+import maximum
+
+print(maximum.maximum(20, 35))
+Output
+35
