@@ -1,0 +1,9 @@
+even.py
+def even(n):
+    return n % 2 == 0
+main.py
+import even
+
+print(even.even(24))
+Output
+True
