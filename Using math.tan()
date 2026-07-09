@@ -1,0 +1,7 @@
+import math
+
+angle = math.radians(45)
+
+print(math.tan(angle))
+Output
+1.0
