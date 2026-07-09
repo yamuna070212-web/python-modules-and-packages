@@ -1,0 +1,9 @@
+reverse.py
+def reverse(text):
+    return text[::-1]
+main.py
+import reverse
+
+print(reverse.reverse("Python"))
+Output
+nohtyP
