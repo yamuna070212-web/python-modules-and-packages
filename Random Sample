@@ -1,0 +1,7 @@
+import random
+
+numbers = [10, 20, 30, 40, 50]
+
+print(random.sample(numbers, 3))
+Sample Output
+[20, 50, 10]
