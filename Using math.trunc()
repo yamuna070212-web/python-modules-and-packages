@@ -1,0 +1,7 @@
+import math
+
+num = 12.98
+
+print(math.trunc(num))
+Output
+12
