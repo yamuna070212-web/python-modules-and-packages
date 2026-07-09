@@ -1,0 +1,9 @@
+odd.py
+def odd(n):
+    return n % 2 != 0
+main.py
+import odd
+
+print(odd.odd(17))
+Output
+True
