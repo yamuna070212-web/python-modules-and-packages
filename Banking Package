@@ -1,0 +1,9 @@
+bank/account.py
+def balance():
+    print("Balance = 15000")
+main.py
+from bank.account import balance
+
+balance()
+Output
+Balance = 15000
