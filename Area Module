@@ -1,0 +1,15 @@
+area.py
+def rectangle(l, b):
+    return l * b
+
+def square(a):
+    return a * a
+main.py
+import area
+
+print(area.rectangle(10, 5))
+print(area.square(6))
+
+Output
+50
+36
