@@ -1,0 +1,15 @@
+calculator.py
+def add(a, b):
+    return a + b
+
+def multiply(a, b):
+    return a * b
+main.py
+from calculator import add, multiply
+
+print(add(10, 20))
+print(multiply(5, 6))
+
+Output
+30
+30
